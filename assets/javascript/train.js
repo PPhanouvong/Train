@@ -54,6 +54,8 @@ $(document).ready(function () {
         $('#firstTrainTime').val('');
         $('#freq').val('');
 
+        
+
         //Conversion
         //Convert to HH:MM
         firstTimeConverted = moment(firstTrainTime, "hh:mm").subtract(1, "years");
